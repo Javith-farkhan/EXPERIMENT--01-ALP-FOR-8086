@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :S.javith farkhan
+Roll no :212221240017
+Date of experiment :12.09.2022
 
 
 
@@ -93,7 +93,7 @@ INT 03
 ## Output  
 
 
-![image](C:\Users\Javith Farkhan\Downloads.png)
+![image]()
  
 ## Subtraction   of 8 bit numbers  ALP 
 
@@ -145,6 +145,8 @@ INT 03
 
 
 ## Result :
+
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
  
 
 
