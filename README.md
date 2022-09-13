@@ -24,8 +24,8 @@ This application is able to run programs on both PC desktops and laptops. This t
 
 ## Programs for arithmetic  operations
 ```
-Developed by : VISHAL GOWTHAMAN K R
-Registration Number : 212221230123
+Developed by : JAVITH FARKHAN S
+Registration Number : 212221240017
 ```
 
 
