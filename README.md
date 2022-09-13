@@ -79,20 +79,69 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
-
+MOV SI,1200h
+MOV CL,00h
+MOV AL,[SI]
+MOV BL,[SI+1]
+ADD Al,BL
+JNC L1
+INC CL
+L1:MOV [SI+2],AL
+MOV [SI+3],CL
+INT 03
 
 ## Output  
+
+
+![image](C:\Users\Javith Farkhan\Downloads.png)
  
 ## Subtraction   of 8 bit numbers  ALP 
+
+MOV SI,1200h
+MOV CL,00h
+MOV AL,[SI]
+MOV BL,[SI+1]
+SUB Al,BL
+JNC L1
+INC CL
+L1:MOV [SI+2],AL
+MOV [SI+3],CL
+INT 03
  
 ## Output  
+
+![image]()
+
 ## Multiplication alp 
+
+MOV SI,1200H
+MOV AL,[SI]
+MOV BL,[SI+1]
+MUL BL
+MOV [SI+2],AL
+MOV [SI+3],AH
+INT 03
+ 
  ## Output  
+ 
+ 
+![image]()
 
 
 ## Division alp 
 
+MOV SI,1200H
+MOV AL,[SI]
+MOV BL,[SI+1]
+DIV BL
+MOV [SI+2],AL
+MOV [SI+3],AH
+INT 03
+
 ## Output  
+
+
+![image]()
 
 
 ## Result :
